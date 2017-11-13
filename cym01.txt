@@ -1,0 +1,8 @@
+grep needle `find . -type f`  ( find any file having word needle)
+find acsoe/ -name *.txt
+
+ctrl-C (stop a job); fg (continue job); bg (put job into background)
+ctrl-Z; bg
+kill %1
+
+export abc (work for another bash)
