@@ -1,0 +1,8 @@
+  126  cd cym/
+  128  git clone git@github.com:cym263/Leeds.git (no work)
+  130  git clone https://github.com/cym263/Leeds.git
+  132  ls Leeds/
+  133  vi Leeds/README.md 
+  135  svn co https://github.com/cym263/Leeds.git
+  137  ls Leeds.git/
+  139  history >my_his_1.txt
