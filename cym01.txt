@@ -4,6 +4,8 @@ grep -n it haiku.txt
 grep -w it haiku.txt
 
 find acsoe/ -name *.txt
+more what_the_star | cut  -b 1-5
+more what_the_star | cut  -f 4-
 
 ctrl-C (stop a job); fg (continue job); bg (put job into background)
 ctrl-Z; bg
