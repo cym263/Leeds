@@ -1,4 +1,8 @@
 grep needle `find . -type f`  ( find any file having word needle)
+grep -i -v ctrl cym01.txt ( find text without ctrl)
+grep -n it haiku.txt
+grep -w it haiku.txt
+
 find acsoe/ -name *.txt
 
 ctrl-C (stop a job); fg (continue job); bg (put job into background)
@@ -6,3 +10,4 @@ ctrl-Z; bg
 kill %1
 
 export abc (work for another bash)
+wc -l *.ppt | sort -n | head -n 1
