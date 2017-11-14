@@ -1,0 +1,8 @@
+    cd cym/Leeds
+    mkdir python_work
+    cd python_work/
+    leafpad README.txt
+    git add README.txt 
+    git commit -m 'Added python_work directory'
+    git push
+
