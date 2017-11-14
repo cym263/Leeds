@@ -13,3 +13,9 @@ kill %1
 
 export abc (work for another bash)
 wc -l *.ppt | sort -n | head -n 1
+
+git add steps:
+  git add my_his_3.txt 
+  git commit -m 'Add some test3 cym files'
+  git push
+
