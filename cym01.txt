@@ -18,4 +18,18 @@ git add steps:
   git add my_his_3.txt 
   git commit -m 'Add some test3 cym files'
   git push
+---
+git commit -m 'update cym01.txt files'
+[master 56cc2b7] update cym01.txt files
+ 1 files changed, 6 insertions(+), 0 deletions(-)
+[user01@unst06 Leeds]$ git push 
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 360 bytes, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://cym263@github.com/cym263/Leeds.git
+   9e50e08..56cc2b7  master -> master
+
 
