@@ -18,6 +18,10 @@ git add steps:
   git add my_his_3.txt 
   git commit -m 'Add some test3 cym files'
   git push
+
+ 619  git add cym01.txt 
+ 620  git commit -a
+
 ---
 git commit -m 'update cym01.txt files'
 [master 56cc2b7] update cym01.txt files
