@@ -6,3 +6,9 @@
     git commit -m 'Added python_work directory'
     git push
 
+>>> os.getcwd()
+'/home/user01/cym/Leeds/python_work'
+>>> os.listdir(".")
+['cym02_python.txt', 'README.txt']
+>>> import os
+
