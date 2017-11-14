@@ -37,3 +37,10 @@ To https://cym263@github.com/cym263/Leeds.git
    9e50e08..56cc2b7  master -> master
 
 
+scp ekman@ncas-field1.arran:\* .
+scp -r ekman@ncas-field1.arran:\* . (for folder)
+find . -name '*.tar' | xargs -n 1 tar -vtf
+find . -name '*.nc' | xargs chmod u=rwx
+
+
+
