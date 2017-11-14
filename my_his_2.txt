@@ -1,0 +1,549 @@
+    1  lsusb -t
+    2  df -h
+    3  su -
+    4  top
+    5  free
+    6  mount
+    7  top
+    8  su -
+    9  ls
+   10  ls Do
+   11  ls Documents/
+   12  top
+   13  lsusb
+   14  python
+   15  df -klh
+   16  mount
+   17  dmesg
+   18  ls
+   19  xeyes
+   20  display
+   21  ls
+   22  cd /
+   23  ls
+   24  cd tmp/
+   25  ls
+   26  cd /
+   27  ls
+   28  cd /tmp/
+   29  ls
+   30  cd /
+   31  ls
+   32  exit
+   33  l
+   34  ls
+   35  mount
+   36  ls
+   37  top
+   38  ls
+   39  python
+   40  yum intstall pyserial
+   41  sudo su
+   42  su
+   43  su
+   44  gedit
+   45  ls
+   46  rm Unsaved\ Document\ 1
+   47  rm Unsaved\ Document\ 1~ 
+   48  ls
+   49  emacs
+   50  python2.7
+   51  gedit
+   52  ssh lecjlg@10.56.104.1
+   53  exit
+   54  yum update
+   55  sudoyum update
+   56  su
+   57  gedit 
+   58  ls
+   59  scp lecjlg@k9.leeds.ac.uk:./*.jpg .
+   60  ls
+   61  display wrf2017_backdrop.jpg 
+   62  scp lecjlg@k9.leeds.ac.uk:./*.jpg .
+   63  exit
+   64  su -
+   65  exit
+   66  exit
+   67  id
+   68  su -
+   69  exit
+   70  exit
+   71  reset
+   72  ls
+   73  git clone https://github.com/ncasuk/ncas-isc
+   74  cd ncas-isc/
+   75  ;s
+   76  ls
+   77  ls overview_presentations/
+   78  ls
+   79  ls python/exercises/
+   80  cd ..
+   81  cd -
+   82  git pull
+   83   cat /etc/redhat-release 
+   84  exit
+   85  clear
+   86  su -
+   87  df -h
+   88  cp -r /media/NEW\ VOLUME .
+   89  yum searh usb-creator
+   90  yum search usb-creator
+   91  su -
+   92  exit
+   93  exit
+   94  su -
+   95  mkdir cym
+   96  cd cym/
+   97  git clone https://github.com/PCMDI/cmor.git
+   98  ls
+   99  ls -l
+  100  ls
+  101  vi abc
+  102  ls -l
+  103  chmod u=rwx g=rwx a=rwx abc 
+  104  ls -l
+  105  chmod g=rwx  abc 
+  106  ls -l
+  107  chmod a=rwx  abc 
+  108  ls -l
+  109  ./abc 
+  110  ls
+  111  ./abc 
+  112  chmod u+x abc 
+  113  ls -l
+  114  chmod a=  abc 
+  115  ls -l
+  116  chmod u+x abc 
+  117  ls -l
+  118  ./abc 
+  119  chmod u+x abc 
+  120  ./abc 
+  121  ls
+  122  ls -l
+  123  chmod u+x abc 
+  124  ls -l
+  125  chmod u+rwx abc 
+  126  ls -l
+  127  ./abc 
+  128  chmod u+rx abc 
+  129  ls -l
+  130  chmod u+rx abc 
+  131  ls -l
+  132  chmod u+x abc 
+  133  ls -l
+  134  chmod u= abc 
+  135  ls -l
+  136  chmod u+x abc 
+  137  ls -l
+  138  ./abc 
+  139  chmod u=r abc 
+  140  ls -l
+  141  chmod u=rx abc 
+  142  ls -l
+  143  ./abc 
+  144  ls 
+  145  ls Leeds.git/
+  146  ls Leeds
+  147  ls Leeds.git/branches/
+  148  ls Leeds.git/trunk/
+  149  ls Leeds.git/
+  150  ls
+  151  cd ../
+  152  ls
+  153  cd ncas-isc/
+  154  ls
+  155  cd shell/
+  156  ls
+  157  cd acsoe/
+  158  ls
+  159  cd freetex-98/
+  160  ls
+  161  cd ../
+  162  ls
+  163  cd ../
+  164  ls
+  165  ls presentations/
+  166  ls
+  167  find . -name 8_ssh.ppt
+  168  find . -type 8_ssh.ppt
+  169  find . -type d 8_ssh.ppt
+  170  find . -type d 
+  171  ls
+  172  find . -name 8_ssh.ppt
+  173  ls presentations/
+  174  grep presentations/ *.ppt
+  175  find presentations/ *.ppt
+  176  find . *.ppt
+  177  find presentations/ *.ppt
+  178  find presentations/ "*.ppt"
+  179  find . -type -d
+  180  find . -type d
+  181  clear
+  182  find . -type d
+  183  find . -type f
+  184  find . -type f *.ppt
+  185  find . -empty
+  186  ls ./acsoe/lterm/macehead/.checksums
+  187  ls
+  188  ls pain/
+  189  ls
+  190  find acsoe/ -name needle.txt
+  191  find acsoe/ -name *.txt
+  192  find acsoe/ -name "*.txt"
+  193  find acsoe/ -name *.txt
+  194  find acsoe/ -name '*.txt'
+  195  ls *.txt
+  196  find . 
+  197  find . -type f
+  198  grep needle `find . -type f`
+  199  vi cym01.txt
+  200  ls
+  201  history
+  202  vi cym01.txt 
+  203  more cym01.txt 
+  204  vi cym01.txt 
+  205  ll
+  206  ls
+  207  ls -l
+  208  ll
+  209  wc –l *.pdb | sort -n | head -n 1
+  210  wc –l *.ppt | sort -n | head -n 1
+  211  cd presentations/
+  212  ls
+  213  wc –l *.ppt | sort -n | head -n 1
+  214  wc -l *.ppt | sort -n | head -n 1
+  215  wc -l *.ppt
+  216  wc -l *.ppt | sort -n 
+  217  wc -l *.ppt | sort -n | head -n 1
+  218  cd ../
+  219  vi cym01.txt 
+  220  ls
+  221  grep -i -v the haiku.txt
+  222  grep -i -v the cym01.txt 
+  223  grep -i -v kill cym01.txt 
+  224  grep -i -v ctrl cym01.txt 
+  225  vi cym01.txt 
+  226  cd ../
+  227  ls
+  228  cd ../
+  229  ls
+  230  exit
+  231  ls
+  232  cd ncas-isc/
+  233  ls
+  234  cd overview_presentations/
+  235  ls
+  236  display Algorithmic_thinking.pdf 
+  237  ls
+  238  cd ../
+  239  ls
+  240  cd ../
+  241  ls
+  242  display wrf2017_backdrop.jpg 
+  243  python test.py 
+  244  ls
+  245  more test.py 
+  246  python test.py 2
+  247  ls
+  248  ls Public/
+  249  ls
+  250  ls Downloads/
+  251  ls
+  252  ls Desktop/
+  253  ls
+  254  ls Documents/
+  255  ls
+  256  ls Pictures/
+  257  ls
+  258  cd Music/
+  259  ls
+  260  cd ../
+  261  ls
+  262  cd cym/
+  263  ls
+  264  git clone git@github.com:cym263/Leeds.git
+  265  ls
+  266  git clone https://github.com/cym263/Leeds.git
+  267  ls
+  268  ls Leeds/
+  269  vi Leeds/README.md 
+  270  ls
+  271  svn co https://github.com/cym263/Leeds.git
+  272  ls
+  273  ls Leeds.git/
+  274  ls
+  275  history >my_his_1.txt
+  276  vi my_his_1.txt 
+  277  nona junk
+  278  nano junk
+  279  more junk 
+  280  ls
+  281  cd Leeds
+  282  ls
+  283  cd ../
+  284  git status
+  285  ls
+  286  cd Leeds
+  287  git status
+  288  ls
+  289  git status
+  290  git add .
+  291  git status
+  292  ls
+  293  git commit -m 'Add some test files'
+  294  git push
+  295  ls
+  296  more README.md 
+  297  ls
+  298  cp ../my_his_1.txt .
+  299  ls
+  300  more my_his_1.txt 
+  301  git add .
+  302  git commit -m 'Add some test files'
+  303  ls
+  304  more my_his_1.txt 
+  305  ls
+  306  git commit -m 'Add some test files'
+  307  ls
+  308  more README.md 
+  309  ls
+  310  git commit -m 'Add some test files'
+  311  ls
+  312  cd ../
+  313  ls
+  314  cd ../
+  315  ls
+  316  cd ncas-isc/
+  317  ls
+  318  cd shell/acsoe/
+  319  ls
+  320  more 00README 
+  321  ls
+  322  ls c-130/
+  323  ls
+  324  ls eae-97/
+  325  ls
+  326  ls -F
+  327  ls -F -a
+  328  mkdir tmp
+  329  cd tmp/
+  330  ls
+  331  gedit myfile
+  332  ls
+  333  ls#
+  334  cd ../
+  335  ls
+  336  cd ../
+  337  ls
+  338  cd pain/
+  339  ls
+  340  ls -F
+  341  ls -a
+  342  ls -F
+  343  ls
+  344  ls -l
+  345  ls
+  346  mv \ Space
+  347  mv What\ the\ \* what_the_star
+  348  ls -l
+  349  mv ? omaga
+  350  ls -l
+  351  mv ? omaga
+  352  ls 
+  353  wc -l
+  354  wc -l *
+  355  wc what_the_star 
+  356  more what_the_star 
+  357  ls
+  358  split what_the_star 
+  359  ls
+  360  vi what_the_star 
+  361  split what_the_star 
+  362  ls
+  363  more xaa 
+  364  rm xaa 
+  365  ls
+  366  more what_the_star 
+  367  split what_the_star 
+  368  ls
+  369  more xaa 
+  370  ls
+  371  rm -l 
+  372  ls
+  373  rm \-l
+  374  rm /-l
+  375  ls
+  376  more -l 
+  377  ls
+  378  cut -c 10-
+  379  ls
+  380  cut -c what_the_star 
+  381  ls
+  382  head -n what_the_star 
+  383  head what_the_star 
+  384  head -n 2 what_the_star 
+  385  head -n 1 what_the_star 
+  386  ls
+  387  mv ? omaga
+  388  ls
+  389  rm - -l
+  390  ls  ??
+  391  ls ?l
+  392  pwd
+  393  ls -al
+  394  rm ?
+  395  ld
+  396  ls
+  397  ls ???
+  398  ls ??
+  399  rm ??
+  400  rm  - ??
+  401  mkdir aaa
+  402  mv * aaa/
+  403  ls
+  404  mv * aaa/
+  405  mv * aaa/.
+  406  ls
+  407  mv  what_the_star xaa aaa
+  408  ls
+  409  mv aaa ..
+  410  cd ..
+  411  ls
+  412  rm -r pain/
+  413  mv aaa pain
+  414  cd pain/
+  415  ls
+  416  cut -c what_the_star 
+  417  more what_the_star | cut -c -2
+  418  more what_the_star | cut -c -1
+  419  more what_the_star 
+  420  more what_the_star | cut -c 2-
+  421  more what_the_star | cut -c 1-
+  422  more what_the_star | cut -c 3-
+  423  more what_the_star | cut -c 2-
+  424  more what_the_star | cut -c 4-
+  425  more what_the_star | cut -w 4-
+  426  more what_the_star | cut  4-
+  427  man cut
+  428  more what_the_star | cut  -f 2-
+  429  more what_the_star | cut  -f 4-
+  430  more what_the_star | cut  -f 
+  431  more what_the_star | cut  -f 0
+  432  more what_the_star | cut  -f 0-
+  433  more what_the_star | cut  -b 2
+  434  more what_the_star | cut  -b 1
+  435  more what_the_star | cut  -b 3
+  436  more what_the_star | cut  -b 4
+  437  more what_the_star | cut  -b 5
+  438  more what_the_star | cut  -b 3-5
+  439  more what_the_star | cut  -b 1-5
+  440  man cut
+  441  more what_the_star | cut  -d 1
+  442  more what_the_star | cut  -d 1-
+  443  more what_the_star | cut  -d  
+  444  man cut
+  445  more what_the_star | cut  -d  
+  446  more what_the_star | cut  -d  1
+  447  more what_the_star | cut  -d 1-
+  448  more what_the_star | cut  -b 1-5
+  449  cd ../
+  450  ls
+  451  vi cym01.txt 
+  452  more what_the_star | cut  -d 
+  453  more what_the_star | cut  -d  
+  454  more what_the_star | cut  -f 4-
+  455  ls
+  456  cd pain/
+  457  more what_the_star | cut  -f 4-
+  458  vi ../cym01.txt 
+  459  exit
+  460  ls
+  461  ls cym/
+  462  ls
+  463  cd cym/
+  464  ls
+  465  mkdir Ttest
+  466  cd Ttest/
+  467  ls
+  468  git clone https://github.com/cym263/Leeds.git
+  469  ls
+  470  cd Leeds/
+  471  ls
+  472  vi cym01.txt 
+  473  ls
+  474  cd ../
+  475  ls
+  476  cd ../
+  477  ls
+  478  vi README_leeds
+  479  ls
+  480  cd ../
+  481  ls
+  482  cd ncas-isc
+  483  ls
+  484  cd shell/
+  485  ls
+  486  cd presentations/
+  487  ls
+  488  cd ../
+  489  ls
+  490  more cym01.txt 
+  491  ls
+  492  more cym01.txt 
+  493  ls
+  494  vi cym01.txt 
+  495  ls
+  496  Y=Hello
+  497  echo $Y
+  498  echo * $Y
+  499  echo '* $Y'
+  500  echo "* $Y"
+  501  X=`ls -l *`
+  502  echo *X
+  503  echo $X
+  504  X=`ls  *`
+  505  echo $X
+  506  ls
+  507  ls *
+  508  ls
+  509  X2=$(ls  *)
+  510  echo $X2
+  511  echo $X
+  512  man split
+  513  ls
+  514  cd 
+  515  cd cym/
+  516  ls
+  517  cd Leeds
+  518  ls
+  519  cd ../
+  520  ls
+  521  more my_his_1.txt 
+  522  ls
+  523  echo "Hello World" > hello.txt
+  524  git add hello.txt 
+  525  ls
+  526  mv hello.txt Leeds/.
+  527  cd Leeds
+  528  ls
+  529  git add hello.txt 
+  530  git commit -m "added hello"
+  531  vi message_1.txt
+  532  ls
+  533  git push
+  534  git config --global user.name "cym263"
+  535  git config --global user.email "cym263@yahoo.com"
+  536  git commit --amend --author='cym263<cym263@yahoo.com>'
+  537  git push
+  538  ls
+  539  hsitory
+  540  history
+  541  ls
+  542  git push https://github.com/cym263/Leeds.git
+  543  git push 
+  544  git show remote
+  545  git remote set-url origin https://cym263@github.com/cym263/Leeds.git
+  546  git push
+  547  ls
+  548  history >my_his_2.txt 
+ website: https://help.github.com/articles/changing-a-remote-s-url/ (from lecturer)
