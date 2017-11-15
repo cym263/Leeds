@@ -14,3 +14,4 @@
 
 svn merge -r 10:HEAD http://url-of-branch-a 
 http://svnbook.red-bean.com/
+git commit -a -m "commit -a"
