@@ -15,3 +15,10 @@
 svn merge -r 10:HEAD http://url-of-branch-a 
 http://svnbook.red-bean.com/
 git commit -a -m "commit -a"
+
+file:///home/user01/ncas-isc/python/presentations/read_write_data/02_python_text_formats.pdf
+http://help.ceda.ac.uk/article/4488-python-virtual-environments (install python into site_package)
+ help:
+>>> import matplotlib.pyplot as plt
+>>> help(plt.legend)
+
