@@ -22,3 +22,4 @@ http://help.ceda.ac.uk/article/4488-python-virtual-environments (install python 
 >>> import matplotlib.pyplot as plt
 >>> help(plt.legend)
 
+ag_stephens@stfc.ac.uk
