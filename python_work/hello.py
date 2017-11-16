@@ -40,7 +40,7 @@ with open(path + "/weather.csv", "r") as reader:
         
      print rain
 with open("myrain.txt", "w") as writer:
-      for r in rain:
+     for r in rain:
          writer.write(str(r) + "\n")
 
 
